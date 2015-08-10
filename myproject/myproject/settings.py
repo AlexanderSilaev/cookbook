@@ -106,6 +106,4 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATIC_ROOT = (
-    '/home/assilaev/webapps/cookbook_static/',
-)
+STATIC_ROOT = '/home/assilaev/webapps/cookbook_static/'
