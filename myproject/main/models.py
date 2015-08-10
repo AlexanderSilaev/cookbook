@@ -6,7 +6,7 @@ from django.db import models
 class Category(models.Model):
     name = models.CharField(max_length=200)
 
-    def __unicode__(self):
+    def __str__(self):
         return str(self.name)
 
 
@@ -22,5 +22,5 @@ class Achievement(models.Model):
     created_date = models.DateTimeField(auto_now_add=True)
     achieved_date = models.DateTimeField()
 
-    def __unicode__(self):
+    def __str__(self):
         return str(self.name)
