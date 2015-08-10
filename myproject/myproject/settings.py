@@ -81,8 +81,8 @@ DATABASES = {
         'NAME': 'assilaev_cookbook',
         'USER': 'assilaev_cookbook',
         'PASSWORD': os.environ.get('DB_PASSWORD'),
-        'HOST': '',
-        'PORT': '',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
     }
 }
 
